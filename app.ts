@@ -251,6 +251,3 @@ let dom = function (selector: string, context?) {
     return new Dom(selector, context);
 }
 
-console.time('t1');
-console.log( dom('h1').css({width: '1000px'}) );
-console.timeEnd('t1');
